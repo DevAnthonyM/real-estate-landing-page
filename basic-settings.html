@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="This is Documentation">
+    <meta name="author" content="TemPlaza.com">
+    <link rel="icon" href="assets/favicon.ico">
+
+    <title>Real-Estate- Responsive WordPress Theme V.1</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/style/style.min.css" rel="stylesheet">
+    <meta name="nav" content="basic-settings">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#navaffix">
+
+<header id="navigator"><nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainnav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a id="logo" class="navbar-brand" href="index.html"><img alt="TemPlaza" src="assets/logo.png"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+
+        <div class="collapse navbar-collapse" id="mainnav">
+            <ul class="nav navbar-nav">
+                <li data-menu="information"><a href="index.html">Information</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Installation
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li data-menu="getting-started"><a href="installation.html#getting-started">Getting Started</a></li>
+                        <li data-menu="requirements"><a href="installation.html#requirements">Basic Requirements</a></li>
+                        <li class="divider"></li>
+                        <li data-menu="installation"><a href="installation.html#installation">Theme Installation</a></li>
+                        <li data-menu="importation"><a href="installation.html#importataion">Data Importation</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Basic Settings
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li data-menu="menu-setting"><a href="basic-settings.html#menu-setting">Menu Setting</a></li>
+                        <li data-menu="widgets"><a href="basic-settings.html#widgets">Widgets</a></li>
+                        <li data-menu="footer-settings"><a href="basic-settings.html#footer-settings">Footer Settings</a></li>
+                        <li class="divider"></li>
+                        <li data-menu="posts-portfolios"><a href="basic-settings.html#posts-categories">Posts - Portfolios</a></li>
+                    </ul>
+                </li>
+                <li data-menu="theme-options"><a href="theme-option.html">Theme Options</a></li>
+                <li data-menu="demo-pages"><a href="pages.html">Demo Pages</a></li>
+                <li data-menu="elements"><a href="elements.html">Elements</a></li>
+                <li data-menu="faqs"><a href="faqs.html">FAQs</a></li>
+
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Go!</button>
+                    </span>
+                </div>
+            </form>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+</header>
+
+<!--Start Content generate-->
+
+<div class="title-head">
+    <div class="container">
+        <h1>Real-Estate - Basic Settings</h1>
+        <p>Learn about how to create Menu, Widgets and Footers</p>
+    </div>
+</div>
+<section class="general">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9" role="main">
+                <!--menu setting start-->
+                <h2 id="menu-setting" class="page-header">
+                    1. Menus
+                </h2>
+
+                <p><strong>Step 1:</strong> You can manage main menu by going to <strong>Appearance--> Menus.</strong></p>
+
+                <p><strong>Step 2:</strong> Then you click <strong>Create Menu</strong> and type menu name.</p>
+
+                <p><strong>Step 3:</strong> You can generate menu items from left side and drag the generated menu at the
+                    right
+                    side to sort it. After that, next task is assign menu to theme locations which could be <strong>Primary
+                        Menu, Header Top Menu or Footer Menu</strong></p>
+
+                <div class="gallery row">
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto[primary-menu]" href="images/basic-settings/menu-1.jpg">
+                            <img alt="" src="images/basic-settings/menu-1.jpg" class="img-thumbnail img-responsive"></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto[primary-menu]" href="images/basic-settings/menu-2.jpg">
+                            <img alt="" src="images/basic-settings/menu-2.jpg" class="img-thumbnail img-responsive"></a>
+                    </div>
+                </div>
+
+                <h3>2. MegaMenu</h3>
+
+                <p>Select the menu item you want to make as mega menu and activate the mega menu option . The first item
+                    after the the megamenu
+                    item will be recognized as mega menu columns the other items under it will be normal menu items. </p>
+
+                <div class="gallery row">
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto[primary-menu]" href="images/basic-settings/mega-menu.jpg">
+                            <img alt="" src="images/basic-settings/mega-menu.jpg" class="img-thumbnail img-responsive"></a>
+                    </div>
+                </div>
+                <!--menu setting end-->
+
+                <h2 id="widgets" class="page-header">
+                    Widgets
+                </h2>
+
+                <p><strong>Step 1:</strong> Go to <strong>Appearance --> Widgets</strong></p>
+
+                <p><strong>Step 2:</strong> On the left frame, you can choose widgets that you need to use, drag and drop on
+                    sidebar right on the right frame</p>
+
+                <div class="gallery row">
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto[widgets]" href="images/basic-settings/widget1.jpg">
+                            <img alt="" src="images/basic-settings/widget1.jpg" class="img-thumbnail img-responsive"></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto[widgets]" href="images/basic-settings/widget2.jpg">
+                            <img alt="" src="images/basic-settings/widget2.jpg" class="img-thumbnail img-responsive"></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto[widgets]" href="images/basic-settings/widget3.jpg">
+                            <img alt="" src="images/basic-settings/widget3.jpg" class="img-thumbnail img-responsive"></a>
+                    </div>
+                </div>
+                <!--widget end-->
+				
+				<!--footer settings start-->
+
+                <h2 id="footer-settings" class="page-header">
+                    Footer Settings
+                </h2>
+
+                <p>You can go to Admin---->Appearance---->Widget  to add widget for footer </p>
+
+                <ul>
+                    <li><strong>Footer 1</strong>:Using Contact info widget</li>
+                    <li><strong>Footer 2</strong>:Using Latest Tweets widget</li>
+                    <li><strong>Footer 3</strong>:Using Flickr Widget </li>
+                    <li><strong>Footer 4</strong>:Using Newsletter widget </li>
+                </ul><br>
+
+
+                    <div class="gallery row">
+                        <div class="col-md-3">
+                            <a data-rel="prettyPhoto[footer-opt]" href="images/basic-settings/footer.jpg">
+                                <img alt="" src="images/basic-settings/footer.jpg" class="img-thumbnail img-responsive">
+                                <div class="text-center">Footer Option</div></a>
+                        </div>
+                    </div>
+				<p> <strong> Note </strong>: You can select your own widgets to drag and drop on Footer </p>
+                
+                <!--footer settings end-->
+				   
+				
+            <!--posts-portfolios start-->
+            <h2 id="posts-categories" class="page-header">
+                Post Categories
+            </h2>
+
+            <p><strong>Below information provides you with foundations of how to create a post/portfolio with categories and tags.</strong></p>
+            <p>A post contains 2 basic elements: <strong>Post Categories and Post Tags.</strong>, so that you can manage
+                all your posts easily. This part will introduce you to post categories and how to create them.</p>
+
+            <p>To add new post categories, navigate to <strong>Posts --> Categories</strong></p>
+
+            <div class="gallery row">
+                <div class="col-md-3">
+                    <a data-rel="prettyPhoto[posts]" href="images/posts-portfolios/category_new.jpg">
+                        <img alt="" src="images/posts-portfolios/category_new.jpg" class="img-thumbnail img-responsive">
+                    </a>
+                </div>
+            </div>
+            <!--posts-categories start-->
+
+            <h2 id="posts-tags">Post Tags</h2>
+
+            <div class="gallery row">
+                <div class="col-md-6">
+                    <p>To add new tags, go to <strong>Posts --> Tags</strong> and add tag name. </p>
+                </div>
+                <div class="col-md-3">
+                    <a data-rel="prettyPhoto[posts]" href="images/posts-portfolios/tag_add.jpg">
+                        <img alt="" src="images/posts-portfolios/tag_add.jpg" class="img-thumbnail img-responsive">
+                    </a>
+                </div>
+            </div>
+            <!--posts-tags start-->
+
+            <h2 id="create-posts">Create Posts</h2>
+
+            <div class="gallery row">
+                <div class="col-md-6">
+                    <p><strong>Step 1:</strong> Go to <strong>Posts --> Add new</strong></p>
+
+                    <p><strong>Step 2:</strong> Add your content, then choose categories and tags.</p>
+                </div>
+                <div class="col-md-3">
+                    <a data-rel="prettyPhoto[posts]" href="images/posts-portfolios/posttype-post-1.jpg">
+                        <img alt="" src="images/posts-portfolios/posttype-post-1.jpg" class="img-thumbnail img-responsive">
+                    </a>
+                </div>
+            </div>
+
+            <div><p><strong>Post Option</strong></p>
+
+                <div class="gallery row">
+                    <div class="col-md-6">
+                        <p>There are some post types available so that you can make your posts diversified. Detailed
+                            information for each
+                            type is mentioned below:</p>
+                    </div>
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto[posts]" href="images/posts-portfolios/post-option.jpg">
+                            <img alt="" src="images/posts-portfolios/post-option.jpg" class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="step-child">
+
+                    <div id="image">
+                        <p><strong>1. Image</strong></p>
+
+                        <div class="gallery row">
+                            <div class="col-md-6">
+                                <p>There are some post types available so that you can make your posts diversified. Detailed
+                                    information for each
+                                    type is mentioned below:</p>
+                            </div>
+                            <div class="col-md-3">
+                                <a data-rel="prettyPhoto[posts]" href="images/posts-portfolios/post-option-image.jpg">
+                                    <img alt="" src="images/posts-portfolios/post-option-image.jpg" class="img-thumbnail img-responsive">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="slideshows">
+                        <p><strong>2. Slideshows</strong></p>
+
+                        <div class="gallery row">
+                            <div class="col-md-6">
+                                <p>This option allows you to display your images with a new lively style. You can add more
+                                    images which you want to.</p>
+                            </div>
+                            <div class="col-md-3">
+                                <a data-rel="prettyPhoto[posts]" href="images/posts-portfolios/post-option-slideshows.jpg">
+                                    <img alt="" src="images/posts-portfolios/post-option-slideshows.jpg" class="img-thumbnail img-responsive">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="video">
+                        <p><strong>3. Video</strong></p>
+
+                        <div class="gallery row">
+                            <div class="col-md-6">
+                                <p>There are two available options for you if your post type is Video: <strong>YouTube or
+                                    Vimeo.</strong></p>
+                            </div>
+                            <div class="col-md-3">
+                                <a data-rel="prettyPhoto[posts]" href="images/posts-portfolios/post-option-slideshows.jpg">
+                                    <img alt="" src="images/posts-portfolios/post-option-slideshows.jpg" class="img-thumbnail img-responsive">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <p><strong>1. Video</strong></p>
+
+                    <p>There are two available options for you if your post type is Video: <strong>YouTube or
+                        Vimeo.</strong></p>
+
+                    <div class="gallery row">
+                        <div class="col-md-3">
+                            <a data-rel="prettyPhoto[posts]" href="images/posts-portfolios/youtube_id.jpg">
+                                <img alt="" src="images/posts-portfolios/youtube_id.jpg" class="img-thumbnail img-responsive">
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a data-rel="prettyPhoto[posts]" href="images/posts-portfolios/vimeoID.jpg">
+                                <img alt="" src="images/posts-portfolios/vimeoID.jpg" class="img-thumbnail img-responsive">
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a data-rel="prettyPhoto[posts]" href="images/posts-portfolios/type_video.jpg">
+                                <img alt="" src="images/posts-portfolios/type_video.jpg" class="img-thumbnail img-responsive">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div id="audio">
+                        <p><strong>4. Audio</strong></p>
+
+                        <p>Another post type is audio. Go to <a href="https://soundcloud.com/" target="_blank">SoundCloud's
+                            website</a> and open an interesting audio.
+                            Then copy its ID and paste it to this option.</p>
+
+                        <div class="gallery row">
+                            <div class="col-md-3">
+                                <a data-rel="prettyPhoto[posts]" href="images/posts-portfolios/audio-post-opt1.jpg">
+                                    <img alt="" src="images/posts-portfolios/audio-post-opt1.jpg" class="img-thumbnail img-responsive">
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a data-rel="prettyPhoto[posts]" href="images/posts-portfolios/audio-post-opt2.jpg">
+                                    <img alt="" src="images/posts-portfolios/audio-post-opt2.jpg" class="img-thumbnail img-responsive">
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a data-rel="prettyPhoto[posts]" href="images/posts-portfolios/audio-post-opt3.jpg">
+                                    <img alt="" src="images/posts-portfolios/audio-post-opt3.jpg" class="img-thumbnail img-responsive">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--create posts-->
+
+            <div id="portfolio-categories">
+                <h2>Portfolio Categories</h2>
+
+                <p>Moving to this part, there is some basic information that can help you to create different portfolios.
+                    Similar as post,
+                    portfolios include 2 elements: Portfolio categories and Portfolio tags.</p>
+
+                <div class="gallery row">
+                    <div class="col-md-6">
+                        <p><strong>Step 1:</strong> To create Portfolio Categories, you go to <strong>Portfolio -->
+                            Categories</strong></p>
+
+                        <p><strong>Step 2:</strong> Enter category name and click <strong>Add new category</strong></p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto[portfolios]" href="images/posts-portfolios/port-category.jpg">
+                            <img alt="" src="images/posts-portfolios/port-category.jpg" class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <!--end of portfolio categories-->
+
+            <div id="portfolio-tags">
+                <h2>Portfolio Tags</h2>
+
+                <div class="gallery row">
+                    <div class="col-md-6">
+                        <p><strong>Step 1:</strong> Go to <strong>Portfolio --> Portfolio Tags</strong> to create tags</p>
+
+                        <p><strong>Step 2:</strong> Enter tag name and click <strong>Add new tag</strong></p>
+                    </div>
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto[portfolios]" href="images/posts-portfolios/portfolio-tags.jpg">
+                            <img alt="" src="images/posts-portfolios/portfolio-tags.jpg" class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--end of portfolio-tag-->
+
+            <div id="create-portfolios">
+                <h2>Create Portfolios</h2>
+
+                <div class="gallery row">
+                    <div class="col-md-6">
+                        <p><strong>Step 1:</strong> To create new portfolio, you go to <strong>Portfolio --> Add new</strong></p>
+
+                        <p><strong>Step 2:</strong> Enter portfolio name, categories and tags.</p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto[portfolios]" href="images/posts-portfolios/create-port.jpg">
+                            <img alt="" src="images/posts-portfolios/create-port.jpg" class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="gallery row">
+                    <div class="col-md-6">
+                        <p><strong>Portfolio Options:</strong></p>
+                        <p><strong>+ Feature Image PNG:</strong> Upload your .png image which will be show when you use
+                            <strong>Recent Project element</strong></p>
+                        <p><strong>+ Is Featured?:</strong> Is your portfolio featured?</p>
+                        <p><strong>+ Portfolio Type:</strong> There are 4 types: <strong>Images, Slideshows, Video and Audio. </strong>
+                            You can choose one of portfolio types and apply as same as for Post Types.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto[portfolios]" href="images/posts-portfolios/portfolio-options.jpg">
+                            <img alt="" src="images/posts-portfolios/portfolio-options.jpg" class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--end of create portfolios-->
+
+            </div>
+            <div class="col-md-3" role="complementary">
+                <nav class="docs-sidebar hidden-print hidden-xs hidden-sm" id="navaffix">
+                    <ul class="nav docs-sidenav" role="tablist">
+                        <li class="">
+                            <a href="#menu-setting">Menu Setting</a>
+                        </li>
+                        <li>
+                            <a href="#widgets">Widgets</a>
+                        </li>
+                        <li>
+                            <a href="#footer-settings">Footer Settings</a>
+                        </li>
+                        <li class="">
+                            <a href="#posts-categories">Post Categories</a>
+                        </li>
+                        <li>
+                            <a href="#posts-tags">Post Tags</a>
+                        </li>
+                        <li>
+                            <a href="#create-posts">Create Posts</a>
+                            <ul class="nav">
+                                <li><a href="#image">Image</a></li>
+                                <li><a href="#slideshows">Slideshows</a></li>
+                                <li><a href="#video">Video</a></li>
+                                <li><a href="#audio">Audio</a></li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="#portfolio-categories">Portfolio Categories</a>
+                        </li>
+                        <li class="">
+                            <a href="#portfolio-tags">Portfolio Tags</a>
+                        </li>
+                        <li class="">
+                            <a href="#create-portfolios">Create Portfolios</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End content generate-->
+
+<footer id="doc-footer"><div class="container">
+    <div class="doc-social">
+        <ul class="docs-social-buttons">
+            <li>
+                <a href="https://twitter.com/templazavn" class="twitter-follow-button"><i class="fa fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/templaza" class="facebook-like-button"><i class="fa fa-facebook-square"></i></a>
+            </li>
+            <li>
+                <a href="https://plus.google.com/+Templaza/" class="google-plus-button"><i class="fa fa-google-plus-square"></i></a>
+            </li>
+            <li>
+                <a href="https://dribbble.com/templaza" class="dribbble-button"><i class="fa fa-dribbble"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/templaza" class="github-button"><i class="fa fa-github"></i></a>
+            </li>
+            <li>
+                <a href="http://www.youtube.com/channel/UCykS6SX6L2GOI-n3IOPfTVQ" class="youtube-button"><i class="fa fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="http://www.behance.net/templaza" class="behance-button"><i class="fa fa-behance-square"></i></a>
+            </li>
+        </ul>
+    </div>
+
+
+    <p>Copyright © 2015 <a href="http://www.templaza.com/">TemPlaza</a>. All Rights Reserved.</p>
+    <ul class="docs-footer-links text-muted">
+        <li><a href="https://www.templaza.com/">TemPlaza</a></li>
+        <li>·</li>
+        <li><a href="http://www.templaza.com/joomla-templates">Joomla Template</a></li>
+        <li>·</li>
+        <li><a href="http://www.templaza.com/wordpress-themes">WordPress Theme</a></li>
+        <li>·</li>
+        <li><a href="http://www.templaza.com/free-stuff">Freebies</a></li>
+        <li>·</li>
+        <li><a href="http://www.templaza.com/Forum">Forums</a></li>
+        <li>·</li>
+        <li><a href="http://www.templaza.com/blog/">Blog</a></li>
+    </ul>
+</div></footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.prettyPhoto.js"></script>
+<script src="assets/js/doc.js"></script>
+</body>
+</html>

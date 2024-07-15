@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="This is Documentation">
+    <meta name="author" content="TemPlaza.com">
+    <link rel="icon" href="assets/favicon.ico">
+
+    <title>Real-Estate - WordPress Theme V.1</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/style/style.min.css" rel="stylesheet">
+    <meta name="nav" content="elements">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#navaffix">
+<header id="navigator"><nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainnav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a id="logo" class="navbar-brand" href="index.html"><img alt="TemPlaza" src="assets/logo.png"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+
+        <div class="collapse navbar-collapse" id="mainnav">
+            <ul class="nav navbar-nav">
+                <li data-menu="information"><a href="index.html">Information</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Installation
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li data-menu="getting-started"><a href="installation.html#getting-started">Getting Started</a></li>
+                        <li data-menu="requirements"><a href="installation.html#requirements">Basic Requirements</a></li>
+                        <li class="divider"></li>
+                        <li data-menu="installation"><a href="installation.html#installation">Theme Installation</a></li>
+                        <li data-menu="importation"><a href="installation.html#importataion">Data Importation</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Basic Settings
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li data-menu="menu-setting"><a href="basic-settings.html#menu-setting">Menu Setting</a></li>
+                        <li data-menu="widgets"><a href="basic-settings.html#widgets">Widgets</a></li>
+                        <li data-menu="footer-settings"><a href="basic-settings.html#footer-settings">Footer Settings</a></li>
+                        <li class="divider"></li>
+                        <li data-menu="posts-portfolios"><a href="basic-settings.html#posts-categories">Posts - Portfolios</a></li>
+                    </ul>
+                </li>
+                <li data-menu="theme-options"><a href="theme-option.html">Theme Options</a></li>
+                <li data-menu="demo-pages"><a href="pages.html">Demo Pages</a></li>
+                <li data-menu="elements"><a href="elements.html">Elements</a></li>
+                <li data-menu="faqs"><a href="faqs.html">FAQs</a></li>
+
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Go!</button>
+                    </span>
+                </div>
+            </form>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+</header>
+
+<!--Start Content generate-->
+
+<div class="title-head">
+    <div class="container">
+        <h1>Real-Estate - Elements</h1>
+        <p>Learn about how to use some frequent elements</p>
+    </div>
+</div>
+<section class="general">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9" role="main">
+                <!--elements start-->
+                <h2 id="elements" class="page-header">
+                    Frequent Elements
+                </h2>
+
+                <div class="content">
+                    <p>This is a general instruction of some frequent elements used to make up your website. Each element is set default value
+					of padding is <strong>50px</strong>. To offset this padding, you can open <strong>Row Setting</strong> and set up padding again 
+					with <strong>new value</strong> is 0px or other value.</p>
+                </div>
+                <!--introduce end-->
+
+                <!-- Start-->
+                <h2 id="header-option" class="page-header">
+                    Header Option
+                </h2>
+				<p>In this element,you can set up your logo types and select menu to show.</p>
+                <p>In addition, you can also configure color for Logo Text</p>
+				<div class="alert alert-info">
+                    <p><strong>NOTE</strong>: Settings in this element are applied for the page including this element only. In case you want to change logo and header 
+					type for other Default page, please go to:</p>
+					<p><strong>Logo:</strong> Go to <code>Appearance > Theme Options > Logo & Favicon</code></p>
+					<p><strong>Header Type:</strong> Go to <code>Appearance > Theme Options > Header Options</code></p>
+                </div>
+				<div class="gallery row">
+					<div class="col-md-3">
+						<a data-rel="prettyPhoto" href="images/elements/header1.jpg">
+							<img alt="" src="images/elements/header1.jpg"
+								 class="img-thumbnail img-responsive">
+						</a>
+					</div>
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/header2.jpg">
+                            <img alt="" src="images/elements/header2.jpg"
+                                 class="img-thumbnail img-responsive">
+                            <div class="text-center">Header Section</div>
+                        </a>
+                    </div>
+					<div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/header_type1.jpg">
+                            <img alt="" src="images/elements/header_type1.jpg"
+                                 class="img-thumbnail img-responsive">
+                            <div class="text-center">Type 1</div>
+                        </a>
+                    </div>
+					<div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/header_type2.jpg">
+                            <img alt="" src="images/elements/header_type2.jpg"
+                                 class="img-thumbnail img-responsive">
+                            <div class="text-center">Type 2</div>
+                        </a>
+                    </div>
+                </div>
+				<div class="gallery row">
+					<div class="col-md-3">
+						<a data-rel="prettyPhoto" href="images/elements/header_type3.jpg">
+							<img alt="" src="images/elements/header_type3.jpg"
+								 class="img-thumbnail img-responsive">
+								 <div class="text-center">Type 3</div>
+						</a>
+					</div>
+					<div class="col-md-3">
+						<a data-rel="prettyPhoto" href="images/elements/header_type4.jpg">
+							<img alt="" src="images/elements/header_type4.jpg"
+								 class="img-thumbnail img-responsive">
+								 <div class="text-center">Type 4</div>
+						</a>
+					</div>
+				</div>
+                <!--header option-->
+
+                <!-- Start-->
+                <h2 id="section-title" class="page-header">
+                    Title
+                </h2>
+                <p>With Section Title: you can add title, subtitle, description. Also, you can choose to select color for title, subtitle and description</p>
+				<div class="alert alert-info">
+					<p><strong>Note</strong>: To get more Linearicons, you go back the theme package, open the <strong>Document</strong> folder and open the <code>linearicons.html</code> file.</p>
+				</div>
+                <div class="gallery row">
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/title.jpg">
+                            <img alt="" src="images/elements/title.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+					<div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/title_title.jpg">
+                            <img alt="" src="images/elements/title_title.jpg"
+                                 class="img-thumbnail img-responsive">
+								 <div class="text-center">Title type</div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/title-image.jpg">
+                            <img alt="" src="images/elements/title-image.jpg"
+                                 class="img-thumbnail img-responsive">
+								 <div class="text-center">Title - Button type</div>
+                        </a>
+                    </div>
+					<div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/title_title_icon_boxed.jpg">
+                            <img alt="" src="images/elements/title_title_icon_boxed.jpg"
+                                 class="img-thumbnail img-responsive">
+								 <div class="text-center">Title - Icon - Boxed type</div>
+                        </a>
+                    </div> 
+                </div>
+				<div class="gallery row">
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/title_title_icon_unboxed.jpg">
+                            <img alt="" src="images/elements/title_title_icon_unboxed.jpg"
+                                 class="img-thumbnail img-responsive">
+								 <div class="text-center">Title - Icon - Unboxed type</div>
+                        </a>
+                    </div>
+				</div>
+                <!--section title-->
+
+                <!--single image-->
+                <h2 id="single-image" class="page-header">
+                    Single Image
+                </h2>
+                <p>This element allows you to add image with caption and configure style for image</p>
+                <div class="gallery row">
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/single-image.jpg">
+                            <img alt="" src="images/elements/single-image.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/single-image1.jpg">
+                            <img alt="" src="images/elements/single-image1.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+
+                </div>
+                <!--single image-->
+
+                <!--breadcrumb-->
+                <h2 id="breadcrumb" class="page-header">
+                    Breadcrumb
+                </h2>
+                <p>You can configure Breadcrumb section in your page </p>
+                <div class="gallery row">
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/breadcrum.jpg">
+                            <img alt="" src="images/elements/breadcrum.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/sw-videohtml1.jpg">
+                            <img alt="" src="images/elements/sw-videohtml1.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                </div>
+                <!--breadcrumb-->
+
+                <!--multi-google-map-->
+                <h2 id="multi-google-map" class="page-header">
+                    Multi Google Map
+                </h2>
+                <p>This option allows you to add google map in your site.</p>
+                <div class="gallery row">
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/google-map.jpg">
+                            <img alt="" src="images/elements/google-map.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                    
+                </div>
+                <!--multi-google-map ends-->
+				
+				<!--partner-->
+                <h2 id="partner" class="page-header">
+                    Partner Element
+                </h2>
+                <p>You can your partner with image with this element.</p>
+                <div class="gallery row">
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/partner.jpg">
+                            <img alt="" src="images/elements/partner.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/partner1.jpg">
+                            <img alt="" src="images/elements/partner1.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                </div>
+                <!--Partner-->
+
+                <!--slider-->
+                <h2 id="slider" class="page-header">
+                    Slider
+                </h2>
+                <p>You can use this element to add sliders on your page. This element includes the following options:</p>
+				<ul>
+					<li><strong>Images:</strong> Select and upload your slide images.</li>
+					<li><strong>Title:</strong> Enter Slide title</li>
+					<li><strong>Description:</strong> Enter the slide description</li>
+					<li><strong>Font Color:</strong> Select or enter a color code</li>
+					<li><strong>Height Slider:</strong> Show the slide images in full height or auto height.</li>
+					<li><strong>Autoplay:</strong> Select to play the slides automatically or manually.</li>
+					<li><strong>Speed slider:</strong> Enter the time of slide transition. Eg: 5000 seconds.</li>
+					<li><strong>Show Dots:</strong> Show/Hide Dots on the slides.</li>
+					<li><strong>Show/Hide Overlay:</strong> Show/Hide the overlay on the slides</li>
+				</ul>
+                <div class="gallery row">
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/slider1.jpg">
+                            <img alt="" src="images/elements/slider1.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/slider2.jpg">
+                            <img alt="" src="images/elements/slider2.jpg"
+                                 class="img-thumbnail img-responsive">
+                        <div class="text-center">Slider</div></a>
+                    </div>   
+                </div>
+                <!--slider-->
+
+                <!--Slider image-->
+                <h2 id="slider-image" class="page-header">
+                    Slider Image
+                </h2>
+                <p>With this element, you can show property categories in slide style. </p>
+                <div class="gallery row">
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/slider-image.jpg">
+                            <img alt="" src="images/elements/slider-image.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/slider-image1.jpg">
+                            <img alt="" src="images/elements/slider-image1.jpg"
+                                 class="img-thumbnail img-responsive">
+								 <div class="text-center">Type 1</div>
+                        </a>
+                    </div>
+					<div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/slider_image_2.jpg">
+                            <img alt="" src="images/elements/slider_image_2.jpg"
+                                 class="img-thumbnail img-responsive">
+								 <div class="text-center">Type 2</div>
+                        </a>
+                    </div>
+                </div>
+                <!--slider image-->
+
+                <!--our-introduce-item-->
+                <h2 id="our-introduce-item" class="page-header">
+                    Our Introduce Item
+                </h2>
+                <p>You can add quote item here. In this element, you can also add name and job for Author of quote
+				    In addition, you can upload image for author</p>
+                <div class="gallery row">
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/our-introduce.jpg">
+                            <img alt="" src="images/elements/our-introduce.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+					<div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/our_introduce_setting2.jpg">
+                            <img alt="" src="images/elements/our_introduce_setting2.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/our-introduce-image.jpg">
+                            <img alt="" src="images/elements/our-introduce-image.jpg"
+                                 class="img-thumbnail img-responsive">
+								 <div class="text-center">Type 1</div>
+                        </a>
+                    </div>
+					<div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/our_introduce_type2.jpg">
+                            <img alt="" src="images/elements/our_introduce_type2.jpg"
+                                 class="img-thumbnail img-responsive">
+								 <div class="text-center">Type 2</div>
+                        </a>
+                    </div>
+                </div>
+                <!--our-introduce-item-->
+
+                <h2 id="property-grid" class="page-header">
+                    Property Grid
+                </h2>
+                <p>This element can help you show your portfolio with grid type</p>
+                    
+                <div class="gallery row">
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/property-grid.jpg">
+                            <img alt="" src="images/elements/property-grid.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+					<div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/property-grid2.jpg">
+                            <img alt="" src="images/elements/property-grid2.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+					<div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/property-grid-image.jpg">
+                            <img alt="" src="images/elements/property-grid-image.jpg"
+                                 class="img-thumbnail img-responsive">
+								 <div class="text-center">Type 1</div>
+                        </a>
+                    </div>
+					<div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/property_grid_type2.jpg">
+                            <img alt="" src="images/elements/property_grid_type2.jpg"
+                                 class="img-thumbnail img-responsive">
+								 <div class="text-center">Type 2</div>
+                        </a>
+                    </div>
+                </div>
+                <!--property-grid-->
+
+                <!--property-agent-->
+                <h2 id="property-agent" class="page-header">
+                    Property Agent
+                </h2>
+                <p>With this element, you can show your portfolio in the beautiful way</p>
+                <div class="gallery row">
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/property-agent.jpg">
+                            <img alt="" src="images/elements/property-agent.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/property-agant1.jpg">
+                            <img alt="" src="images/elements/property-agant1.jpg"
+                                 class="img-thumbnail img-responsive">
+								 <div class="text-center">List style</div>
+                        </a>
+                    </div>
+					<div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/property_agent_slider.jpg">
+                            <img alt="" src="images/elements/property_agent_slider.jpg"
+                                 class="img-thumbnail img-responsive">
+								 <div class="text-center">Slider style</div>
+                        </a>
+                    </div>
+					<div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/property_agent_grid.jpg">
+                            <img alt="" src="images/elements/property_agent_grid.jpg"
+                                 class="img-thumbnail img-responsive">
+								 <div class="text-center">Grid style</div>
+                        </a>
+                    </div>
+                </div>
+                <!--property-agent-->
+				
+				<!--property list-->
+                <h2 id="property-list" class="page-header">
+                    Property List
+                </h2>
+                <p>Your portfolio will show with list type</p>
+                <div class="gallery row">
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/property-list.jpg">
+                            <img alt="" src="images/elements/property-list.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/property-list1.jpg">
+                            <img alt="" src="images/elements/property-list1.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                </div>
+                <!--property list-->
+				
+				<!--property slider-->
+                <h2 id="property-slider="page-header">
+                    Property Slider
+                </h2>
+                <p>With this element, you can use element to configure portfolio for display with slider type.</p>
+                <div class="gallery row">
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/property-slider.jpg">
+                            <img alt="" src="images/elements/property-slider.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+					<div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/property-slider2.jpg">
+                            <img alt="" src="images/elements/property-slider2.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+					<div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/property-slider-image.jpg">
+                            <img alt="" src="images/elements/property-slider-image.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                </div>
+                <!--property slider-->
+				
+                <!--Our Process Items-->
+                <h2 id="our-process-items" class="page-header">
+                    Our Process Items
+                </h2>
+                <p>With this element, You can show your process items with useful options.</p>
+                <div class="gallery row">
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/inter-our-process.jpg">
+                            <img alt="" src="images/elements/inter-our-process.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/inter-our-process1.jpg">
+                            <img alt="" src="images/elements/inter-our-process1.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                </div>
+                <!--Our Process Items-->
+				
+				<!--Search-->
+                <h2 id="property_search" class="page-header">
+                    Property Search
+                </h2>
+                <p>In this element, you select to show/hide fields available in the search form such as: Location, Property Type, Property Status, Radius, etc. There are 3 forms of property search. </p>
+                <div class="gallery row">
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/property_search_type1.jpg">
+                            <img alt="" src="images/elements/property_search_type1.jpg"
+                                 class="img-thumbnail img-responsive">
+								 <div class="text-center">Type 1</div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/property_search_type2.jpg">
+                            <img alt="" src="images/elements/property_search_type2.jpg"
+                                 class="img-thumbnail img-responsive">
+								 <div class="text-center">Type 2</div>
+                        </a>
+                    </div>
+					<div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/property_search_type3.jpg">
+                            <img alt="" src="images/elements/property_search_type3.jpg"
+                                 class="img-thumbnail img-responsive">
+								 <div class="text-center">Type 3</div>
+                        </a>
+                    </div>
+					<div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/property_search_settings.jpg">
+                            <img alt="" src="images/elements/property_search_settings.jpg"
+                                 class="img-thumbnail img-responsive">
+								 <div class="text-center">Settings</div>
+                        </a>
+                    </div>
+                </div>
+                <!--search-->
+				
+				<!--Property type-->
+                <h2 id="property_type" class="page-header">
+                    Property Type
+                </h2>
+                <p>Show up property types separately with this element. Upload image for each property type.</p>
+                <div class="gallery row">
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/property_type.jpg">
+                            <img alt="" src="images/elements/property_type.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/property_type_setting.jpg">
+                            <img alt="" src="images/elements/property_type_setting.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                </div>
+                <!--property type-->
+				
+				<!--latest news-->
+                <h2 id="latest_news" class="page-header">
+                    Latest News
+                </h2>
+                <p>In this element, you can show latest posts from your Posts section.</p>
+                <div class="gallery row">
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/latest_news.jpg">
+                            <img alt="" src="images/elements/latest_news.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a data-rel="prettyPhoto" href="images/elements/latest_news_settings.jpg">
+                            <img alt="" src="images/elements/latest_news_settings.jpg"
+                                 class="img-thumbnail img-responsive">
+                        </a>
+                    </div>
+                </div>
+                <!--latest news-->
+                
+                
+            </div>
+            <div class="col-md-3" role="complementary">
+                <nav class="docs-sidebar hidden-print hidden-xs hidden-sm" id="navaffix">
+                    <ul class="nav docs-sidenav" role="tablist">
+                        <li class="">
+                            <a href="#header-option">Header Option</a>
+                        </li>
+                        <li>
+                            <a href="#section-title">Title</a>
+                        </li>
+                        <li>
+                            <a href="#breadcrumb">Breadcrumb</a>
+                        </li>
+                        <li>
+                            <a href="#partner">Partner</a>
+                        </li>
+                        <li>
+                            <a href="#multi-google-map">Multi Google Map</a>
+                        </li>
+                        <li>
+                            <a href="#single-image">Single Image</a>
+                        </li>
+                        <li>
+                            <a href="#slider">Slider</a>
+                        </li>
+						<li>
+                            <a href="#slider-image">Slider Image</a>
+                        </li>
+						<li>
+                            <a href="#our-introduce-item">Our Introduce Item</a>
+                        </li>
+						<li>
+                            <a href="#property-grid">Property Grid</a>
+                        </li>
+						<li>
+                            <a href="#property-agent"> Property Agent</a>
+                        </li>
+						<li>
+                            <a href="#property-list">Property List</a>
+                        </li>
+						<li>
+                            <a href="#property-slider">Property Slider</a>
+                        </li>
+						<li>
+                            <a href="#property_search">Property Search</a>
+                        </li>
+						<li>
+                            <a href="#property_type">Property Type</a>
+                        </li>
+						<li>
+                            <a href="#latest_news">Latest news</a>
+                        </li>
+                        
+                    </ul>
+                    <a href="#navigator" class="back-to-top">
+                        Back to top
+                    </a>
+                </nav>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!--End content generate-->
+
+<footer id="doc-footer"><div class="container">
+    <div class="doc-social">
+        <ul class="docs-social-buttons">
+            <li>
+                <a href="https://twitter.com/templazavn" class="twitter-follow-button"><i class="fa fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/templaza" class="facebook-like-button"><i class="fa fa-facebook-square"></i></a>
+            </li>
+            <li>
+                <a href="https://plus.google.com/+Templaza/" class="google-plus-button"><i class="fa fa-google-plus-square"></i></a>
+            </li>
+            <li>
+                <a href="https://dribbble.com/templaza" class="dribbble-button"><i class="fa fa-dribbble"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/templaza" class="github-button"><i class="fa fa-github"></i></a>
+            </li>
+            <li>
+                <a href="http://www.youtube.com/channel/UCykS6SX6L2GOI-n3IOPfTVQ" class="youtube-button"><i class="fa fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="http://www.behance.net/templaza" class="behance-button"><i class="fa fa-behance-square"></i></a>
+            </li>
+        </ul>
+    </div>
+
+
+    <p>Copyright © 2015 <a href="http://www.templaza.com/">TemPlaza</a>. All Rights Reserved.</p>
+    <ul class="docs-footer-links text-muted">
+        <li><a href="https://www.templaza.com/">TemPlaza</a></li>
+        <li>·</li>
+        <li><a href="http://www.templaza.com/joomla-templates">Joomla Template</a></li>
+        <li>·</li>
+        <li><a href="http://www.templaza.com/wordpress-themes">WordPress Theme</a></li>
+        <li>·</li>
+        <li><a href="http://www.templaza.com/free-stuff">Freebies</a></li>
+        <li>·</li>
+        <li><a href="http://www.templaza.com/Forum">Forums</a></li>
+        <li>·</li>
+        <li><a href="http://www.templaza.com/blog/">Blog</a></li>
+    </ul>
+</div></footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.prettyPhoto.js"></script>
+<script src="assets/js/doc.js"></script>
+</body>
+</html>
